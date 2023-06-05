@@ -14,8 +14,30 @@ body {
     -o-background-size: cover;
     background-size: cover;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .quotes-container {}
 
 .features-container {}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumobtron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
